@@ -1,0 +1,28 @@
+{
+  "name": "shnycat-blog",
+  "version": "1.0.0",
+  "description": "My personal blog using Next.js framework.",
+  "scripts": {
+    "server": "next dev 2>/dev/null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shnycat/blog.git"
+  },
+  "keywords": [],
+  "author": "Sholahuddin Afif",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shnycat/blog/issues"
+  },
+  "homepage": "https://github.com/shnycat/blog#readme",
+  "dependencies": {
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-next": "^12.1.6"
+  }
+}
