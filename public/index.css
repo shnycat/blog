@@ -51,7 +51,11 @@ main {
   color: white;
 }
 
+.images {
+  overflow: hidden;
+}
+
 .images * {
-  padding-top: 1rem;
+  margin-top: 1rem;
   border-radius: 10px;
 }
