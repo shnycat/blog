@@ -13,7 +13,7 @@ export default function Home() {
         <img src="/profile.png" width="300px" />
         <div>
           <h1>Hi! I Am Afif,</h1>
-          <h3>net-taught full-stack {"{}"} developer.</h3>
+          <h3>net-taught full-stack {"{}"} developer?.</h3>
           <div>
             <div className={`card`}>
               <h2>About Me?</h2>
@@ -70,6 +70,7 @@ export default function Home() {
                 terminal emulator with Neovim as my code editor.
               </p>
             </div>
+            <img src="/test.gif" alt="gif" width="100%" />
           </div>
         </div>
         <span className="line"></span>
