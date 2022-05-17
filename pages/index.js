@@ -31,10 +31,6 @@ export default function Home() {
                 or zero human interactivity. So I concluded that remote jobs are
                 best match for me.
               </p>
-              <p>
-                That's it. Thank you very muccho for reading and sorry for my
-                bad grammar!
-              </p>
             </div>
             <div className={`card`}>
               <h2>Skills.</h2>
@@ -62,14 +58,25 @@ export default function Home() {
                 started project and start another one without even finishing any
                 of them. teehee ;p
               </p>
+              <p>
+                But... I'm certain if it is a client's order I would surely make
+                it finished! <i>Well, of course it is. lol.</i>
+              </p>
             </div>
             <div className={`card`}>
               <h2>Just FYI.</h2>
               <p>
-                I made this web page using Next.js inside Termux android
-                terminal emulator with Neovim as my code editor.
+                I made this web page using Next.js inside{" "}
+                <a href="https://termux.com">Termux</a> android terminal
+                emulator with Neovim as my code editor.
               </p>
             </div>
+            <br />
+            <p className='end'>
+              That's it. Thank you very muccho for reading and sorry for my bad
+              grammar!
+            </p>
+            <br />
             <img src="/test.gif" alt="gif" width="100%" />
           </div>
         </div>

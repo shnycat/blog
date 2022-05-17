@@ -5,6 +5,7 @@
   font-family: monospace;
   background-color: #0f1419;
   color: #abb2bf;
+  line-height: 20px;
 }
 
 .navbar {
@@ -20,7 +21,7 @@
   right: 20px;
   padding: 0.5rem;
   padding-top: 0.7rem;
-  padding-bottom: 0.01rem;
+  padding-bottom: 0.5rem;
   font-size: 300%;
   box-shadow: 1px 1px 1px 1px #abb2bf;
   border-radius: 10px;
@@ -74,4 +75,12 @@ footer {
   text-align: center;
   font-size: small;
   color: white;
+}
+
+.end {
+  background-color: #abb2bf;
+  color: black;
+  border-radius: 10px;
+  padding: 1rem;
+  font-weight: bolder;
 }
