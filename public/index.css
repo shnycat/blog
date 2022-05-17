@@ -1,5 +1,4 @@
-.main {
-  position: absolute;
+main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,11 +7,28 @@
   padding: 0 2rem 0 2rem;
 }
 
-.about {
-  margin-top: 1rem;
+.card {
+  margin-top: 2rem;
   padding: 1rem;
   border: 4px solid grey;
   border-style: dashed;
   border-radius: 10px;
   text-align: justify;
+}
+
+.card * {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.card h2 {
+  text-align: right;
+  border-bottom: 2px solid #abb2bf;
+}
+
+.line {
+  background-color: grey;
+  margin-top: 2rem;
+  width: 50%;
+  height: 2px;
 }
