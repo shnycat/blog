@@ -17,7 +17,12 @@
   bottom: 20px;
   right: 20px;
   padding: .5rem;
-  font-size: 200%;
+  padding-top: .7rem;
+  padding-bottom: .01rem;
+  font-size: 300%;
+  box-shadow: 2px 2px black;
+  background-color: grey;
+  border-radius: 10px;
 }
 
 .navbar ul {
