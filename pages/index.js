@@ -10,6 +10,7 @@ import {
   SiHtml5,
   SiCss3,
   SiReact,
+  SiNextdotjs,
 } from "react-icons/si";
 
 export default function Home() {
@@ -74,6 +75,9 @@ export default function Home() {
                 </span>
                 <span>
                   <SiReact />
+                </span>
+                <span>
+                  <SiNextdotjs />
                 </span>
                 <span>
                   <SiPython />
