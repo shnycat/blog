@@ -26,7 +26,7 @@ export default function Home() {
         <div>
           <h1>Hi! I Am Afif,</h1>
           <h3>net-taught full-stack {"{}"} developer?.</h3>
-          <div>
+          <div className="cards">
             <div className={`card`}>
               <h2>About Me?</h2>
               <p>
@@ -111,8 +111,8 @@ export default function Home() {
             <div className={`card`}>
               <h2>Just FYI.</h2>
               <p>
-                I made this web page using Next.js inside
-                <Link href="https://termux.com"> Termux</Link> (android terminal
+                I made this web page using Next.js and vanilla CSS3 inside{" "}
+                <Link href="https://termux.com">Termux</Link> (android terminal
                 emulator) with Neovim as my code editor.
               </p>
             </div>

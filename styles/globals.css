@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+
+/* this css is not clean an need to be reconstructed */
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: monospace;
+  font-family: 'JetBrains Mono', monospace;
   color: #abb2bf;
   background-color: #0f1419;
 }
@@ -13,8 +17,8 @@
   left: 20px;
   padding: 1rem;
   padding-top: 0.7rem;
-  padding-bottom: .1rem;
-  font-size: 300%;
+  padding-bottom: 0.1rem;
+  font-size: 240%;
   box-shadow: 0px 1px 4px 1px #abb2bf;
   border-radius: 10px;
   z-index: 2;
@@ -34,7 +38,7 @@
 .navbar button {
   border-radius: 10px;
   font-size: x-large;
-  margin: 2rem;
+  margin: .5rem;
   height: 70px;
   width: 50%;
   font-weight: bolder;
@@ -52,6 +56,7 @@ main h1 {
   color: #61afef;
   padding: 1rem;
 }
+
 main h2 {
   color: white;
 }
@@ -62,7 +67,7 @@ main {
 }
 
 p {
-  line-height: 20px;
+  line-height: 25px;
 }
 
 @media screen and (min-width: 700px) {
