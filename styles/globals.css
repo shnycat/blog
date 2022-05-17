@@ -3,6 +3,8 @@
   margin: 0;
   box-sizing: border-box;
   font-family: monospace;
+  background-color: #0f1419;
+  color: #abb2bf;
 }
 
 .navbar {
@@ -16,12 +18,11 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  padding: .5rem;
-  padding-top: .7rem;
-  padding-bottom: .01rem;
+  padding: 0.5rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.01rem;
   font-size: 300%;
-  box-shadow: 2px 2px black;
-  background-color: grey;
+  box-shadow: 1px 1px 1px 1px #abb2bf;
   border-radius: 10px;
 }
 
@@ -32,7 +33,6 @@
   margin-bottom: 1rem;
   margin-top: 1rem;
   border-radius: 10px;
-  background-color: aliceblue;
   box-shadow: 1px 1px 2px 2px grey;
 }
 
@@ -44,6 +44,13 @@
 
 .link {
   text-decoration: none;
+}
+
+main h1 {
+  color: #61afef;
+}
+main h2 {
+  color: white;
 }
 
 main {
@@ -66,4 +73,5 @@ footer {
   padding-top: 0.5rem;
   text-align: center;
   font-size: small;
+  color: white;
 }
