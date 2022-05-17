@@ -50,3 +50,8 @@ main {
   font-size: 250%;
   color: white;
 }
+
+.images * {
+  padding-top: 1rem;
+  border-radius: 10px;
+}

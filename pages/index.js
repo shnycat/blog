@@ -122,10 +122,21 @@ export default function Home() {
               grammar!
             </p>
             <br />
+          </div>
+          <div className='images'>
             <img
-              style={{ borderRadius: "10px" }}
               src="/test.gif"
               alt="gif"
+              width="100%"
+            />
+            <img
+              src="/images/_app.jpg"
+              alt="jpeg"
+              width="100%"
+            />
+            <img
+              src="/images/css.jpg"
+              alt="jpeg"
               width="100%"
             />
           </div>
