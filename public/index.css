@@ -7,6 +7,12 @@ main {
   padding: 0 2rem 0 2rem;
 }
 
+.cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .card {
   margin-top: 2rem;
   padding: 1rem;
