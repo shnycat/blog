@@ -32,3 +32,15 @@ main {
   width: 50%;
   height: 2px;
 }
+
+.skill-icons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skill-icons * {
+  padding: 10px;
+  font-size: 250%;
+  color: white;
+}

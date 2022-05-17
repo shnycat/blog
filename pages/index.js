@@ -1,5 +1,16 @@
 import Head from "next/head";
 import Link from "next/link";
+import {
+  SiArtixlinux,
+  SiCplusplus,
+  SiGnubash,
+  SiJavascript,
+  SiLinux,
+  SiPython,
+  SiHtml5,
+  SiCss3,
+  SiReact,
+} from "react-icons/si";
 
 export default function Home() {
   return (
@@ -8,7 +19,7 @@ export default function Home() {
         <title>Shnycat - Home</title>
         <link rel="stylesheet" href="/index.css" />
       </Head>
-      <h2 className="bism">بسم الله الرحمن الحيم</h2>
+      <h2 className="bism">بسم الله الرحمن الرحيم</h2>
       <main>
         <img src="/profile.png" width="300px" />
         <div>
@@ -36,8 +47,9 @@ export default function Home() {
               <h2>Skills.</h2>
               <p>
                 I can speak in some programming languages such as JavaScript,
-                Python, C/C++. I understand Object Oriented Programming. I use
-                Git and Github to track and maintain my projects.
+                Python, and middle level languages like C/C++ and Rust. I
+                understand Object Oriented Programming. I use Git and Github to
+                track and maintain my projects.
               </p>
               <p>
                 I use Linux operating system as my main OS. So I understand a
@@ -49,7 +61,36 @@ export default function Home() {
                 If needed, I can learn other languages too. I can work in a
                 learning-at-work job. Please consider to hire me.
               </p>
-              <p>Good people... Please hire me T_T</p>
+              <h3>skills:</h3>
+              <div className="skill-icons">
+                <span>
+                  <SiHtml5 />
+                </span>
+                <span>
+                  <SiCss3 />
+                </span>
+                <span>
+                  <SiJavascript />
+                </span>
+                <span>
+                  <SiReact />
+                </span>
+                <span>
+                  <SiPython />
+                </span>
+                <span>
+                  <SiCplusplus />
+                </span>
+                <span>
+                  <SiGnubash />
+                </span>
+                <span>
+                  <SiLinux />
+                </span>
+                <span>
+                  <SiArtixlinux />
+                </span>
+              </div>
             </div>
             <div className={`card`}>
               <h2>Projects.</h2>
@@ -59,25 +100,30 @@ export default function Home() {
                 of them. teehee ;p
               </p>
               <p>
-                But... I'm certain if it is a client's order I would surely make
-                it finished! <i>Well, of course it is. lol.</i>
+                But... I feel like I'm certain if it is a client's order I would
+                surely make it finished! <i>Well, of course it is. lol.</i>
               </p>
             </div>
             <div className={`card`}>
               <h2>Just FYI.</h2>
               <p>
-                I made this web page using Next.js inside{" "}
-                <a href="https://termux.com">Termux</a> android terminal
-                emulator with Neovim as my code editor.
+                I made this web page using Next.js inside
+                <Link href="https://termux.com"> Termux</Link> (android terminal
+                emulator) with Neovim as my code editor.
               </p>
             </div>
             <br />
-            <p className='end'>
+            <p className="end">
               That's it. Thank you very muccho for reading and sorry for my bad
               grammar!
             </p>
             <br />
-            <img src="/test.gif" alt="gif" width="100%" />
+            <img
+              style={{ borderRadius: "10px" }}
+              src="/test.gif"
+              alt="gif"
+              width="100%"
+            />
           </div>
         </div>
         <span className="line"></span>

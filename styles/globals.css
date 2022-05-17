@@ -3,52 +3,54 @@
   margin: 0;
   box-sizing: border-box;
   font-family: monospace;
-  background-color: #0f1419;
   color: #abb2bf;
-  line-height: 20px;
-}
-
-.navbar {
-  position: fixed;
-  bottom: 5rem;
-  right: 5rem;
-  width: 50%;
+  background-color: #0f1419;
 }
 
 .nav-toggle {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  padding: 0.5rem;
+  top: 20px;
+  left: 20px;
+  padding: 1rem;
   padding-top: 0.7rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: .1rem;
   font-size: 300%;
-  box-shadow: 1px 1px 1px 1px #abb2bf;
+  box-shadow: 0px 1px 4px 1px #abb2bf;
   border-radius: 10px;
+  z-index: 2;
 }
 
-.navbar ul {
+.navbar {
   display: flex;
   flex-direction: column;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  background-color: #00000099;
+}
+
+.navbar button {
   border-radius: 10px;
-  box-shadow: 1px 1px 2px 2px grey;
+  font-size: x-large;
+  margin: 2rem;
+  height: 70px;
+  width: 50%;
+  font-weight: bolder;
+  background-color: #61afef30;
+  color: white;
+  transition: width 600ms ease;
 }
 
-.navbar li {
-  list-style: none;
-  padding: 1rem;
-  font-size: 150%;
-}
-
-.link {
+.navbar button * {
+  background: none;
   text-decoration: none;
 }
 
 main h1 {
   color: #61afef;
+  padding: 1rem;
 }
 main h2 {
   color: white;
@@ -56,6 +58,11 @@ main h2 {
 
 main {
   padding: 2rem;
+  padding-top: 7rem;
+}
+
+p {
+  line-height: 20px;
 }
 
 @media screen and (min-width: 700px) {
