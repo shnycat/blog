@@ -25,7 +25,7 @@ export default function Home() {
         <img src="/profile.png" width="300px" />
         <div>
           <h1>Hi! I Am Afif,</h1>
-          <h3>net-taught full-stack web developer?</h3>
+          <h3><Link href='/nettaught'>net-taught</Link> full-stack web developer?</h3>
           <div className="cards">
             <div className={`card`}>
               <h2>About Me?</h2>
