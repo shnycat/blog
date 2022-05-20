@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "My personal blog using Next.js framework.",
   "scripts": {
-    "server": "next dev 2>/dev/null"
+    "server": "next dev 2>/dev/null",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",

@@ -1,99 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 
-/* this css is not clean an need to be reconstructed */
-
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'JetBrains Mono', monospace;
-  color: #abb2bf;
-  background-color: #0f1419;
-}
-
-.nav-toggle {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  padding: 1rem;
-  padding-top: 0.7rem;
-  padding-bottom: 0.1rem;
-  font-size: 240%;
-  box-shadow: 0px 1px 4px 1px #abb2bf;
-  border-radius: 10px;
-  z-index: 2;
-}
-
-.navbar {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  background-color: #00000099;
-  backdrop-filter: blur(5px);
-}
-
-.navbar button {
-  border-radius: 10px;
-  font-size: x-large;
-  margin: .5rem;
-  height: 70px;
-  width: 50%;
-  font-weight: bolder;
-  background-color: #61afef30;
-  color: white;
-  transition: width 600ms ease;
-}
-
-.navbar button * {
-  background: none;
-  text-decoration: none;
-}
-
-main h1 {
-  color: #61afef;
-  padding: 1rem;
-}
-
-main h2 {
-  color: white;
-}
-
-main {
-  padding: 2rem;
-  padding-top: 7rem;
-}
-
-p {
-  line-height: 25px;
-}
-
-@media screen and (min-width: 700px) {
-  main {
-    padding-left: 20%;
-    padding-right: 20%;
-  }
-}
-
-.bism {
-  padding-top: 2rem;
-  text-align: center;
-}
-
-footer {
-  padding-top: 0.5rem;
-  text-align: center;
-  font-size: small;
-  color: white;
-}
-
-.end {
-  background-color: #abb2bf;
-  color: black;
-  border-radius: 10px;
-  padding: 1rem;
-  font-weight: bolder;
+  font-family: "JetBrains Mono", monospace;
+  @apply p-0 m-0 text-[#abb2bf] bg-[#0f1419];
 }

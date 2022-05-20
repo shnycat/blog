@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Nav } from "../components";
+import { Nav, Footer } from "../components";
 import "../styles/globals.css";
 
 const App = ({ Component, pageProps }) => {
@@ -10,8 +10,19 @@ const App = ({ Component, pageProps }) => {
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Nav />
-      <Component {...pageProps} />
+
+      <header>
+        <Nav />
+      </header>
+
+      <main>
+        <div className="bismillah">بسم الله الرحمن الرحيم</div>
+        <Component {...pageProps} />
+      </main>
+
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };
